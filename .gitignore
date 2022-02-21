@@ -1,0 +1,18 @@
+ .classpath
+.project
+.scala_dependencies
+.settings
+.sessions
+.DS_Store
+log/
+logs/
+lib/*.*
+dist/
+*.log*
+.idea
+*.iml
+target
+**/target/*
+**/.classpath_nb
+**/.ensime*
+**/project
