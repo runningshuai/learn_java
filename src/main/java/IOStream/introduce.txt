@@ -1,0 +1,2 @@
+字节流：inputStream,outputStream 父类，要用子类
+字符流: Reader, Writer 父类，要用子类
