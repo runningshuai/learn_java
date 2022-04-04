@@ -129,11 +129,10 @@ public class HttpRequest {
 
     public static void main(String[] args) {
         //发送 GET 请求
-//        String s=HttpRequest.sendGet("http://10.10.160.121:8097/get_items", "page=1&u=7628719444&count=10&symbol=SH601318");
-//        System.out.println(s);
 
         //发送 POST 请求
-        String sr=HttpRequest.sendPost("http://10.10.213.7:8080/feature/query",
+        String url = "";
+        String sr=HttpRequest.sendPost(url,
                 "{\"featureId\": 100083,\"keys\": [\"7628719444\"]}");
         JsonParser jsonParser = new JsonParser();
         JsonObject jsonContent=jsonParser.parse(sr).getAsJsonObject();
