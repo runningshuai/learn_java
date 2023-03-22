@@ -1,4 +1,4 @@
-package algorithm.array.string;
+package algorithm.string;
 
 /**
  * @Description: 判断是否回文字符串

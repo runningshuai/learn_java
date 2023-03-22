@@ -1,4 +1,4 @@
-package algorithm.tree;
+package algorithm.bfs;
 
 /**
  * @author 99195

@@ -1,4 +1,4 @@
-package algorithm.backTrack;
+package algorithm.backTrack.PermuteCombineSubsets;
 
 import java.util.LinkedList;
 import java.util.List;

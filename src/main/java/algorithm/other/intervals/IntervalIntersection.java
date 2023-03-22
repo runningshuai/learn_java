@@ -1,4 +1,4 @@
-package algorithm.math.intervals;
+package algorithm.other.intervals;
 
 import java.util.LinkedList;
 

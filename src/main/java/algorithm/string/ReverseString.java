@@ -1,4 +1,4 @@
-package algorithm.array.string;
+package algorithm.string;
 
 /**
  * @Description:反转字符串数组 输入：s = ["h","e","l","l","o"], 输出：["o","l","l","e","h"]

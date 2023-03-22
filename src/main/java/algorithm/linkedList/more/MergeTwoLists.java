@@ -1,4 +1,4 @@
-package algorithm.linkedList.two;
+package algorithm.linkedList.more;
 
 import algorithm.linkedList.ListNode;
 
@@ -13,7 +13,8 @@ public class MergeTwoLists {
         if(list1 == null && list2 == null){
             return null;
         }
-        ListNode merge = new ListNode(-1);
+        ListNode dummy = new ListNode(-1);
+        ListNode merge = dummy;
 
         while(list1 != null && list2 != null){
             if(list1.val < list2.val){
@@ -35,6 +36,6 @@ public class MergeTwoLists {
             merge.next = list1;
         }
 
-        return merge.next;
+        return dummy.next;
     }
 }

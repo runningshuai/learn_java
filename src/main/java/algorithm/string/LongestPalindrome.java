@@ -1,4 +1,4 @@
-package algorithm.array.string;
+package algorithm.string;
 
 /**
  * @Description: 最长回文字符串; 输入：s = "babad", 输出："bab"
